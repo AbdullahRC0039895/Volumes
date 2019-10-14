@@ -179,6 +179,7 @@
             this.BtnC1.TabIndex = 7;
             this.BtnC1.Text = "Calculate";
             this.BtnC1.UseVisualStyleBackColor = true;
+            this.BtnC1.Click += new System.EventHandler(this.BtnC1_Click);
             // 
             // BtnC2
             // 
@@ -188,6 +189,7 @@
             this.BtnC2.TabIndex = 1;
             this.BtnC2.Text = "Calculate";
             this.BtnC2.UseVisualStyleBackColor = true;
+            this.BtnC2.Click += new System.EventHandler(this.BtnC2_Click);
             // 
             // LP1
             // 
