@@ -54,7 +54,7 @@ namespace Volumes
             }
             try
             {
-                SR2 = double.Parse(textBox1.Text);
+                SR2 = double.Parse(textBox2.Text);
             }
             catch
             {
@@ -64,7 +64,7 @@ namespace Volumes
             }
             try
             {
-                SR3 = double.Parse(textBox1.Text);
+                SR3 = double.Parse(textBox3.Text);
             }
             catch
             {
@@ -85,7 +85,7 @@ namespace Volumes
 
             try
             {
-                PR1 = double.Parse(textBox1.Text);
+                PR1 = double.Parse(textBox4.Text);
             }
             catch
             {
@@ -95,7 +95,7 @@ namespace Volumes
             }
             try
             {
-                PR2 = double.Parse(textBox1.Text);
+                PR2 = double.Parse(textBox5.Text);
             }
             catch
             {
@@ -105,7 +105,7 @@ namespace Volumes
             }
             try
             {
-                PR3 = double.Parse(textBox1.Text);
+                PR3 = double.Parse(textBox6.Text);
             }
             catch
             {
@@ -131,7 +131,7 @@ namespace Volumes
 
             try
             {
-                PR1 = double.Parse(textBox1.Text);
+                PR1 = double.Parse(textBox4.Text);
             }
             catch
             {
@@ -141,7 +141,7 @@ namespace Volumes
             }
             try
             {
-                PR2 = double.Parse(textBox1.Text);
+                PR2 = double.Parse(textBox5.Text);
             }
             catch
             {
@@ -149,7 +149,6 @@ namespace Volumes
                 PR2 = 0.0;
                 //if answer is not whole number it will not be seen and will be an error
             }
-           
 
             double resistance = 1 / ((1 / PR1) + (1 / PR2));
             LT.Text = "R Total =" + resistance;
@@ -173,7 +172,7 @@ namespace Volumes
             }
             try
             {
-                SR2 = double.Parse(textBox1.Text);
+                SR2 = double.Parse(textBox2.Text);
             }
             catch
             {
